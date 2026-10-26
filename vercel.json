@@ -1,0 +1,7 @@
+{
+  "functions": { "api/affected_brgy.js": { "includeFiles": "data.json" } },
+  "rewrites": [
+    { "source": "/affected_brgy/", "destination": "/api/affected_brgy" },
+    { "source": "/affected_brgy", "destination": "/api/affected_brgy" }
+  ]
+}
